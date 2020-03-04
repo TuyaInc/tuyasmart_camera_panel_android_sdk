@@ -1,41 +1,47 @@
-# TuyaSmart Camera Panel SDK  - Android 
+# 涂鸦智能摄像机 Panel SDK  - Android 版
 
 [中文版](https://github.com/TuyaInc/tuyasmart_camera_panel_android_sdk/blob/master/README-zh.md) | [English](https://github.com/TuyaInc/tuyasmart_camera_panel_android_sdk/blob/master/README.md)
 
 ------
 
-## Features Overview
+## 功能概述
 
-Tuya Smart Camera Panel SDK provides Camera devices' panels for the convenience of users and to reduce the development costs, including the following features:
+涂鸦智能摄像机面板SDK（简称：TuyaCameraPanelSDK）为方便用户，减少摄像头面板开发成本，提供了涂鸦摄像头相关的面板，主要包括：
 
-- React Native panel( refer to [TuyaCameraPanelSDK](https://tuyainc.github.io/tuyasmart_panel_android_sdk_doc/))
-- Native Panel
-- Doorbell Answering Panel
-- Video Doorbell Answering Panel
-- Cloud Storage Panel
-- Playback Panel
-- Set Panel
-- Message Panel
-- Album Panel
-- Custom Panels
+- Rn面板(详见 [TuyaPanelSDK文档](https://tuyainc.github.io/tuyasmart_panel_android_sdk_doc/))
+- 原生native面板
+- 普通门铃接听面板  （界面显示：实时图片+接听挂断）
+- 视频流门铃接听面板（界面显示：实时视频流+接听挂断）
+- 云存储面板
+- 回放面板
+- 设置面板
+- 消息中心面板
+- 本地相册面板
+- 实现自定义面板
+    - 自定义回放面板
+    - 自定义云存储面板
+    - 自定义本地相册面板
+    - 自定义消息中心面板
+    - 自定义设置面板
+        - 自定义修改设备名称/头像
+        - 自定义意见反馈
 
-## Rapid Integration
+## 快速集成
 
-**
-Using AndroidStudio integration(Version 3.1.3 or above is supported)**
-> For the instructions of AndroidStudio, please refer to: [AndroidStudio Guides](https://developer.android.com/studio/)
+**请使用 AndroidStudio (版本号 3.1.3及更高版本)**
+> AndroidStudio的使用请参考: [AndroidStudio Guides](https://developer.android.com/studio/)
 
-### Premise
-TuyaCameraPanelSDK is developed base on TuyaHomeSdk v3.13.0
+### 集成前提
+TuyaCameraPanelSDK 是基于涂鸦全屋智能SDK（TuyaHomeSdk） 3.13.0版本上开发
 
-Before integrating the TuyaCameraPanelSDK, you need to do the following:
-1. Integration of TuyaHomeSdk completed，please refer to: [TuyaHomeSdkDoc](https://tuyainc.github.io/tuyasmart_home_android_sdk_doc/zh-hans/)（Apply tuya App ID，App Secret and configure the relevant environment）
-2. Complete the camera distribution network
+集成 TuyaCameraPanelSDK 之前，需要做以下工作：
+1. 集成TuyaHomeSdk完成，参考[集成文档](https://tuyainc.github.io/tuyasmart_home_android_sdk_doc/zh-hans/)（包括申请tuya App ID和App Secret、安全图片配置相关环境）
+2. 摄像头设备配网完成
 
-### Integrated SDK
+### 集成SDK
 
-- Create the project
-- Add the following line to your project build.gradle:
+- 创建项目工程，接入 TuyaCameraPanelSDK 并配置完成
+- 在根目录build.gradle添加maven地址：
 
     ```java
     allprojects {
@@ -76,7 +82,7 @@ Before integrating the TuyaCameraPanelSDK, you need to do the following:
     
     ````
 
-- Add the following line to your module build.gradle:
+- 在模块的build.gradle中添加如下代码:
 
     ```java   
     apply plugin: 'com.android.application'
@@ -188,7 +194,7 @@ Before integrating the TuyaCameraPanelSDK, you need to do the following:
         //... 其他默认配置
     }
     ```
-- Configure appkey , appsecret and permissions in the AndroidManifest.xml
+- 在AndroidManifest.xml文件里配置appkey和appSecret，在配置相应的权限等
     ```java  
     <!-- sdcard -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -224,7 +230,7 @@ Before integrating the TuyaCameraPanelSDK, you need to do the following:
        <!--    ... -->
     </application>
     ```
-- Proguard
+- 混淆配置
     ```java  
     //...
     #fastJson
@@ -247,12 +253,12 @@ Before integrating the TuyaCameraPanelSDK, you need to do the following:
     -dontwarn com.tuya.**
     ```
 
-## Doc
+## 开发文档
 
-   Refer to Details: [TuyaSmart Camera Panel SDK](https://github.com/TuyaInc/tuyasmart_camera_panel_android_sdk_doc)
+   更多请参考: [涂鸦智能摄像机面板 SDK 使用说明](https://github.com/TuyaInc/tuyasmart_camera_panel_android_sdk_doc)
 
-## Update log
+## 更新日志
 
 - 2020.3.4
-    - TuyaSmart Camera Panel SDK  V1.0
+    - 涂鸦智能摄像机面板SDK TuyaCameraPanelSDK 1.0版本上线
 

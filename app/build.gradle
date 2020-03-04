@@ -12,9 +12,9 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
 
-//        Properties properties = new Properties()
-//        properties.load(project.rootProject.file('local.properties').newDataInputStream())
-//        manifestPlaceholders = [TUYA_SMART_APPKEY: "${properties.getProperty("appkey")}", TUYA_SMART_SECRET: "${properties.getProperty("appsecret")}"]
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        manifestPlaceholders = [TUYA_SMART_APPKEY: "${properties.getProperty("appkey")}", TUYA_SMART_SECRET: "${properties.getProperty("appsecret")}"]
 
 
         ndk {

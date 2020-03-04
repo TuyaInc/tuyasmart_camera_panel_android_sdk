@@ -41,10 +41,10 @@
 
         <meta-data
             android:name="TUYA_SMART_APPKEY"
-            android:value="ekdrktme8ffdfxx7dg7r" />
+            android:value="${TUYA_SMART_APPKEY}" />
         <meta-data
             android:name="TUYA_SMART_SECRET"
-            android:value="fgykqr7tawyqqqx8j3ee9fg5wfsx9y38" />
+            android:value="${TUYA_SMART_SECRET}" />
 
         <activity
             android:name=".base.activity.SplashActivity"
