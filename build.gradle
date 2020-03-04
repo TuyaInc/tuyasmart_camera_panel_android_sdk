@@ -1,0 +1,45 @@
+buildscript {
+    repositories {
+        maven {
+            url 'https://raw.githubusercontent.com/TuyaInc/mavenrepo/master/snapshots'
+        }
+        maven {
+            url 'https://raw.githubusercontent.com/TuyaInc/mavenrepo/master/releases'
+        }
+
+        maven { url "https://jitpack.io" }
+        mavenLocal()
+        mavenCentral()
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.antfortune.freeline:gradle:0.8.6'
+        classpath "com.google.protobuf:protobuf-gradle-plugin:0.8.6"
+        classpath 'com.tuya.android.module:tymodule-config:0.4.0'
+        classpath 'org.apache.httpcomponents:httpclient:4.4.1'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://raw.githubusercontent.com/TuyaInc/mavenrepo/master/snapshots' }
+        maven { url 'https://raw.githubusercontent.com/TuyaInc/mavenrepo/master/releases' }
+        // releases repo url
+        maven { url "https://maven-other.tuya.com/repository/maven-releases/" }
+        // snapshots repo url
+        maven { url "https://maven-other.tuya.com/repository/maven-snapshots/" }
+
+        maven { url 'http://central.maven.org/maven2/' }
+        google()
+        maven { url "https://jitpack.io" }
+        jcenter()
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

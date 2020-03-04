@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tuya.smart.android.demo.config.QrCodeConfigActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_5"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="wifi:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_16"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/red"
+            android:textSize="@dimen/sp_16"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_5"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="密码:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_16"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="@dimen/sp_16"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="@dimen/sp_16"
+        android:text="生成二维码"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/mg_22" />
+
+</LinearLayout>

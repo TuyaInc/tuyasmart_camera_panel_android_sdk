@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".base.activity.HomeKitTest"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_add_room"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:textColor="@color/black_30"
+        android:text="添加房间">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_add_dev_to_room"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:textColor="@color/black_30"
+        android:text="往房间1里面添加设备" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_add_dev_to_hoom"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="@color/white"-->
+        <!--android:textColor="@color/black_30"-->
+        <!--android:layout_height="40dp">-->
+
+    <!--</TextView>-->
+
+    <TextView
+        android:id="@+id/tv_query_hoom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mg_40"
+        android:background="@color/white"
+        android:textColor="@color/black_30"
+        android:text="查询家庭列表" />
+
+</LinearLayout>
