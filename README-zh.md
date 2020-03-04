@@ -28,7 +28,7 @@
 
 ## 开发文档
 
-   更多请参考: [涂鸦智能摄像机面板 SDK 使用说明](https://github.com/TuyaInc/tuyasmart_camera_panel_android_sdk_doc)
+   请参考: [涂鸦智能摄像机面板 SDK 使用说明](https://github.com/TuyaInc/tuyasmart_camera_panel_android_sdk_doc)
 
 ## 更新日志
 
