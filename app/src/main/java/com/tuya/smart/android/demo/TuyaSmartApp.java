@@ -11,7 +11,6 @@ import com.tuya.smart.android.common.utils.L;
 import com.tuya.smart.android.demo.login.activity.LoginActivity;
 import com.tuya.smart.android.network.TuyaSmartNetWork;
 import com.tuya.smart.android.panel.TuyaPanelSDK;
-import com.tuya.smart.camera.CameraButt;
 import com.tuya.smart.camera.TuyaCameraPanelSDK;
 import com.tuya.smart.sdk.TuyaSdk;
 import com.tuya.smart.sdk.api.INeedLoginListener;

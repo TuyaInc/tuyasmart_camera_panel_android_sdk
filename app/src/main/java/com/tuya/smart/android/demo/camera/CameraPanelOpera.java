@@ -8,7 +8,6 @@ import android.os.Bundle;
 import com.tuya.smart.android.panel.TuyaPanelSDK;
 import com.tuya.smart.android.panel.api.ITuyaPanelLoadCallback;
 import com.tuya.smart.camera.TuyaCameraPanelSDK;
-import com.tuya.smart.camera.base.model.IPanelModel;
 import com.tuya.smart.camera.blackpanel.activity.CameraPanelActivity;
 import com.tuya.smart.camera.blackpanel.activity.CameraPlaybackActivity;
 import com.tuya.smart.ipc.camera.doorbellpanel.activity.DoorBellCallingActivity;
