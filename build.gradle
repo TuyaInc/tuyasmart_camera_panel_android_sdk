@@ -1,12 +1,7 @@
 buildscript {
     repositories {
-        maven {
-            url 'https://raw.githubusercontent.com/TuyaInc/mavenrepo/master/snapshots'
-        }
-        maven {
-            url 'https://raw.githubusercontent.com/TuyaInc/mavenrepo/master/releases'
-        }
-
+        maven { url "https://maven-other.tuya.com/repository/maven-releases/" }
+        maven { url "https://maven-other.tuya.com/repository/maven-snapshots/" }
         maven { url "https://jitpack.io" }
         mavenLocal()
         mavenCentral()
@@ -24,13 +19,10 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'https://raw.githubusercontent.com/TuyaInc/mavenrepo/master/snapshots' }
-        maven { url 'https://raw.githubusercontent.com/TuyaInc/mavenrepo/master/releases' }
         // releases repo url
         maven { url "https://maven-other.tuya.com/repository/maven-releases/" }
         // snapshots repo url
         maven { url "https://maven-other.tuya.com/repository/maven-snapshots/" }
-
         maven { url 'http://central.maven.org/maven2/' }
         google()
         maven { url "https://jitpack.io" }
