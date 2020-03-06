@@ -21,7 +21,7 @@ Tuya Smart Camera Panel SDK provides Camera devices' panels for the convenience 
 
 ## Doc
 
-   Refer to Details: [TuyaSmart Camera Panel SDK](https://github.com/TuyaInc/tuyasmart_camera_panel_android_sdk_doc)
+   Refer to Details: [TuyaSmart Camera Panel SDK](https://tuyainc.github.io/tuyasmart_camera_panel_android_sdk_doc/)
 
 ## Update log
 
