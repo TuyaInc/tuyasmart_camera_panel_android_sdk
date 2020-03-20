@@ -16,7 +16,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.PowerManager;
 import android.os.Vibrator;
-import android.support.v4.view.ViewCompat;
+import androidx.core.view.ViewCompat;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;

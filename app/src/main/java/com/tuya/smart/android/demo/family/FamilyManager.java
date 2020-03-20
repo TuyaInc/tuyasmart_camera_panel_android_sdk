@@ -1,6 +1,6 @@
 package com.tuya.smart.android.demo.family;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.tuya.smart.android.demo.base.utils.CollectionUtils;

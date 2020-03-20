@@ -1,6 +1,6 @@
 package com.tuya.smart.android.demo.family.recyclerview.anntations;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 
 /**
  * Created by wangshuwen on 2018/6/2.
