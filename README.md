@@ -26,5 +26,6 @@ Tuya Smart Camera Panel SDK provides Camera devices' panels for the convenience 
 ## Update log
 
 - 2020.3.4
-    - TuyaSmart Camera Panel SDK  V1.0, SDK Compiled version 28,Android x is temporarily not supported.
+    - TuyaSmart Camera Panel SDK  V1.0, SDK Compiled version 28,Android x need set ‘android.enableJetifier=true’ in gradle.properties
+
 
