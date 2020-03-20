@@ -33,5 +33,6 @@
 ## 更新日志
 
 - 2020.3.4
-    - 涂鸦智能摄像机面板SDK TuyaCameraPanelSDK 1.0版本上线 ，SDK编译版本为28，暂不支持 Android X。
+    - 涂鸦智能摄像机面板SDK TuyaCameraPanelSDK 1.0版本上线 
+    SDK编译版本为28（暂不支持Android X）如果用Android x 编译需要在gradle.properties下开启 android.enableJetifier=true
 
