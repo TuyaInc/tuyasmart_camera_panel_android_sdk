@@ -8,7 +8,7 @@
 
 涂鸦智能摄像机面板SDK（简称：TuyaCameraPanelSDK）为方便用户，减少摄像头面板开发成本，提供了涂鸦摄像头相关的面板，主要包括：
 
-- Rn面板(详见 [TuyaPanelSDK文档](https://tuyainc.github.io/tuyasmart_panel_android_sdk_doc/))
+- Rn面板(详见 [TuyaPanelSDK文档](https://tuyainc.github.io/tuyasmart_bizbundle_android_doc/zh-hans/))
 - 原生native面板
 - 普通门铃接听面板  （界面显示：实时图片+接听挂断）
 - 视频流门铃接听面板（界面显示：实时视频流+接听挂断）
@@ -28,7 +28,7 @@
 
 ## 开发文档
 
-   请参考: [涂鸦智能摄像机面板 SDK 使用说明](https://tuyainc.github.io/tuyasmart_camera_panel_android_sdk_doc/)
+   请参考: [涂鸦智能摄像机面板 SDK 使用说明](https://tuyainc.github.io/tuyasmart_bizbundle_android_doc/zh-hans/pages/ipc/camera_panel.html)
 
 ## 更新日志
 
