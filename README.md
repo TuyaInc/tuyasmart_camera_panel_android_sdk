@@ -8,7 +8,7 @@
 
 Tuya Smart Camera Panel SDK provides Camera devices' panels for the convenience of users and to reduce the development costs, including the following features:
 
-- React Native panel( refer to [TuyaCameraPanelSDK](https://tuyainc.github.io/tuyasmart_panel_android_sdk_doc/))
+- React Native panel( refer to [TuyaCameraPanelSDK](https://tuyainc.github.io/tuyasmart_bizbundle_android_doc/))
 - Native Panel
 - Doorbell Answering Panel
 - Video Doorbell Answering Panel
@@ -21,7 +21,7 @@ Tuya Smart Camera Panel SDK provides Camera devices' panels for the convenience 
 
 ## Doc
 
-   Refer to Details: [TuyaSmart Camera Panel SDK](https://tuyainc.github.io/tuyasmart_camera_panel_android_sdk_doc/)
+   Refer to Details: [TuyaSmart Camera Panel SDK](https://tuyainc.github.io/tuyasmart_bizbundle_android_doc/en/pages/ipc/camera_panel.html)
 
 ## Update log
 
