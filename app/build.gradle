@@ -69,6 +69,8 @@ dependencies {
 
     //涂鸦摄像头面板SDK
     implementation 'com.tuya.smart:tuyasmart-camera-panel-sdk:1.0.1'
+    implementation 'com.tuya.smart:tuyasmart-rct-package-caller-api:3.17.6r141-open' 
+    implementation 'com.tuya.smart:tuyasmart-rct-package-caller:3.17.6r141-open' 
 
     //涂鸦公版SDK
     implementation 'com.tuya.smart:tuyasmart:3.13.0'
