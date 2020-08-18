@@ -31,6 +31,8 @@
    请参考: [涂鸦智能摄像机面板 SDK 使用说明](https://tuyainc.github.io/tuyasmart_bizbundle_android_doc/zh-hans/pages/ipc/camera_panel.html)
 
 ## 更新日志
+- 2020.8.18
+    - 涂鸦智能摄像机面板SDK TuyaCameraPanelSDK 升级到 3.17.6 ，升级后版本与公版保持一致。
 
 - 2020.3.4
     - 涂鸦智能摄像机面板SDK TuyaCameraPanelSDK 1.0版本上线 
