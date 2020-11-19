@@ -24,6 +24,8 @@ Tuya Smart Camera Panel SDK provides Camera devices' panels for the convenience 
    Refer to Details: [TuyaSmart Camera Panel SDK](https://tuyainc.github.io/tuyasmart_bizbundle_android_doc/en/pages/ipc/camera_panel.html)
 
 ## Update log
+- 2020.11.18
+    - TuyaCameraPanelSDK 3.17.6 , fix: oppo/vivo some mobiles can't jump to RN panel.
 - 2020.8.18
     - TuyaSmart Camera Panel SDK 3.17.6 ,the upgraded version is consistent with the public version.
 - 2020.3.4
